@@ -7,7 +7,7 @@ This toolkit is designed for generating VolVis multi-view images dataset in NeRF
 
 First, clone this repo and download Paraview:
 ```bash
-git clone 
+git clone https://github.com/TouKaienn/PVNeRF-Synthetic.git
 ```
 
 We use the NVIDIA IndeX plugin in Paraview to render pretty DVR images with lighting. You need to download Paraview at [here](https://www.paraview.org/download/) and put the unzip folder into "/resources" dir.
