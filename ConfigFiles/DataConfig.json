@@ -1,0 +1,11 @@
+{
+    "vorts": {
+        "state_path":"./ParaviewState/vorts_vol.pvsm",
+        "data_path":"./Data/vorts0001.raw",
+        "total_timesteps": 1,
+        "timestep_offset":0,
+        "dim" : [128,128,128],
+        "comment": "dense for r=375",
+        "r" : 375
+    }
+}
