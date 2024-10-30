@@ -40,6 +40,7 @@ cd scripts
 bash volRenderDataset.sh
 ```
 If everything OK, you can see a `vortsRGBa` folder in the root dir, which is multi-view image dataset for vortex volume in `Data` dir.
+Feel free to run some novel view synthesis models on `vortsRGBa`, such as [InstantNGP](https://github.com/NVlabs/instant-ngp) or [3DGS](https://github.com/graphdeco-inria/gaussian-splatting).
 
 ## Custom your own VolVis scene
 To render your own VolVis scene, you can follow three steps: `Render your volume in Paraview (optional)`, `Save state file`, and `Set dataset config`.
