@@ -1,4 +1,4 @@
-# PVNeRF-Synthetic: Using ParaView to generate NeRF-Synthetic Dataset for Your VolVis Scene
+# PVNeRF-Synthetic: Using ParaView to Generate NeRF-Synthetic Dataset for Your Visualization Scene
 ![alt text](assets/teaser.png)
 ## Description
 This toolkit is designed for generating VolVis multi-view images dataset in NeRF-Syntheti/Blender format with paraview render and helping researchers study NeRF and its realted techniques in application of scientific visualization. 
