@@ -64,7 +64,7 @@ In `ConfigFiles/DataConfig.json`, register your volume with following format:
         "total_timesteps": 1, <- total timesteps (if time varying)
         "timestep_offset":0, <- start with timestep 1+timestep_offset
         "dim" : [128,128,128], <- volume dimension
-        "r" : 375 <-control the distance from between the camera to volume
+        "r" : 375 <-control the distance between the camera to volume
     }
 ...
 }
