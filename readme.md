@@ -71,6 +71,20 @@ In `ConfigFiles/DataConfig.json`, register your volume with following format:
 ```
 Then you can modify `dataset=("vorts")` in for bash scripts in `scripts` folder to `dataset=("YourVolume")` to generat your multi-view dataset.
 
+## Format Transfer for .nii.gz files
+Use scripts in ./FormatConvert to convert .nii.gz files (common in medical datasets) to .vti, .npy, .raw format.
+.nii.gz to .vti:
+```bash
+python FormatConvert/nii2vti.py
+```
+.vti to .npy and .raw (This script must be run with pvpython from ParaView):
+```bash
+resources/ParaView-5.11.1-MPI-Linux-Python3.9-x86_64/bin/pvpython FormatConvert/vti2npy_raw.py
+```
+uint16 .raw to float .raw:
+```bash
+python FormatConvert/uint16_2_float.py
+```
 
 ## FAQ
 **Q:** When I run bash file in scripts folder, I got error: ```"qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found."```
