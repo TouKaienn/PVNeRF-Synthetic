@@ -8,7 +8,7 @@ import time
 import numpy as np
 from Render.ParaviewRender import ParaviewRender
 from Render.TFutils import getTFs, write_TF_json
-from utils.filesUtils import ensure_dirs #type: ignore
+from Render.filesUtils import ensure_dirs #type: ignore
 from icecream import ic
 # from Render.tools import write_palette_txt
 

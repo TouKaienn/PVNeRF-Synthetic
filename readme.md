@@ -16,7 +16,7 @@ We recommend you to download [Paraview-5.11.1-MPI-Linux-Python3.9-x86_64](https:
 Second, create a new conda environment:
 
 ```bash
-conda env create -n paraview python=3.9
+conda create -n paraview python=3.9
 conda activate paraview
 ```
 

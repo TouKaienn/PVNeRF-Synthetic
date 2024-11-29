@@ -130,7 +130,6 @@ def getTFs(volPath,num_bins):
         # drawTFs(oneTF["RGBPoints"],oneTF["Points"],f"TF_{i}.png")
     return allTFs
     
-    
 def drawTFs(RGBPoints,Points,figPath):
     "draw TF from -1 to 1, RGBPoints and Points are the output of GetColorTransferFunction and GetOpacityTransferFunction"
     from matplotlib import pyplot as plt

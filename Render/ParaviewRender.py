@@ -192,6 +192,7 @@ class ParaviewRender():
         
         light_theta, light_phi = self.light_theta_phi
         
+        # Please comment the following lines if you want to render isosurfaces
         displayProperties.light_type = self.lightType
         displayProperties.light_angle = light_theta#+180
         displayProperties.light_elevation = light_phi
